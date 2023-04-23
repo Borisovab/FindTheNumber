@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00D527F629F299EC006CF97F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D527F529F299EC006CF97F /* AppDelegate.swift */; };
 		00D527F829F299EC006CF97F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D527F729F299EC006CF97F /* SceneDelegate.swift */; };
-		00D527FA29F299EC006CF97F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D527F929F299EC006CF97F /* ViewController.swift */; };
+		00D527FA29F299EC006CF97F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D527F929F299EC006CF97F /* GameViewController.swift */; };
 		00D527FD29F299EC006CF97F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D527FB29F299EC006CF97F /* Main.storyboard */; };
 		00D5280029F299EC006CF97F /* FindTheNumber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00D527FE29F299EC006CF97F /* FindTheNumber.xcdatamodeld */; };
 		00D5280229F299ED006CF97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D5280129F299ED006CF97F /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		00D527F229F299EC006CF97F /* FindTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D527F529F299EC006CF97F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D527F729F299EC006CF97F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00D527F929F299EC006CF97F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00D527F929F299EC006CF97F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		00D527FC29F299EC006CF97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D527FF29F299EC006CF97F /* FindTheNumber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindTheNumber.xcdatamodel; sourceTree = "<group>"; };
 		00D5280129F299ED006CF97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				00D527F529F299EC006CF97F /* AppDelegate.swift */,
 				00D527F729F299EC006CF97F /* SceneDelegate.swift */,
-				00D527F929F299EC006CF97F /* ViewController.swift */,
+				00D527F929F299EC006CF97F /* GameViewController.swift */,
 				00D527FB29F299EC006CF97F /* Main.storyboard */,
 				00D5280129F299ED006CF97F /* Assets.xcassets */,
 				00D5280329F299ED006CF97F /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D527FA29F299EC006CF97F /* ViewController.swift in Sources */,
+				00D527FA29F299EC006CF97F /* GameViewController.swift in Sources */,
 				00D5280029F299EC006CF97F /* FindTheNumber.xcdatamodeld in Sources */,
 				00D527F629F299EC006CF97F /* AppDelegate.swift in Sources */,
 				00D527F829F299EC006CF97F /* SceneDelegate.swift in Sources */,
