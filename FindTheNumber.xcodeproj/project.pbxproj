@@ -14,6 +14,7 @@
 		00D5280029F299EC006CF97F /* FindTheNumber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00D527FE29F299EC006CF97F /* FindTheNumber.xcdatamodeld */; };
 		00D5280229F299ED006CF97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D5280129F299ED006CF97F /* Assets.xcassets */; };
 		00D5280529F299ED006CF97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D5280329F299ED006CF97F /* LaunchScreen.storyboard */; };
+		00D5283329F59201006CF97F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5283229F59201006CF97F /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		00D5280129F299ED006CF97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D5280429F299ED006CF97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00D5280629F299ED006CF97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D5283229F59201006CF97F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				00D527F529F299EC006CF97F /* AppDelegate.swift */,
 				00D527F729F299EC006CF97F /* SceneDelegate.swift */,
 				00D527F929F299EC006CF97F /* GameViewController.swift */,
+				00D5283229F59201006CF97F /* Game.swift */,
 				00D527FB29F299EC006CF97F /* Main.storyboard */,
 				00D5280129F299ED006CF97F /* Assets.xcassets */,
 				00D5280329F299ED006CF97F /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D527FA29F299EC006CF97F /* GameViewController.swift in Sources */,
+				00D5283329F59201006CF97F /* Game.swift in Sources */,
 				00D5280029F299EC006CF97F /* FindTheNumber.xcdatamodeld in Sources */,
 				00D527F629F299EC006CF97F /* AppDelegate.swift in Sources */,
 				00D527F829F299EC006CF97F /* SceneDelegate.swift in Sources */,
